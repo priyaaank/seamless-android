@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/EmptyView"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/changeStorageButton"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_weight="5"
+            android:src="@mipmap/profile_sketch"/>
+
+        <TextView
+            style="@style/MsgTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/add_profile_msg_title"/>
+
+        <TextView
+            style="@style/MsgText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/add_profile_msg_text"/>
+
+        <EditText
+            android:id="@+id/profileNameText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:hint="@string/profileNameHintText"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/changeStorageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/finishOnBoardingButton"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:background="#CCCCCC"
+        android:text="@string/changeStorageButtonText"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/finishOnBoardingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/button_selector"
+        android:text="@string/finishOnBoardingText"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

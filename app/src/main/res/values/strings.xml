@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Seamless</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="add_profile_msg_title">Hoot Hoot!</string>
+    <string name="add_profile_msg_text">Now you just need a storage profile.\n Go ahead and add one</string>
+    <string name="add_storage_msg_text">Select the storage type</string>
+    <string name="nextButtonLabel">Next</string>
+    <string name="accessSecretLabel">Access secret</string>
+    <string name="accessKeyLabel">Access key</string>
+    <string name="changeStorageButtonText">Change storage</string>
+    <string name="finishOnBoardingText">Lets do it!</string>
+    <string name="profileNameHintText">Profile name</string>
+    <string name="amazonS3StorageText">Amazon S3</string>
+</resources>
