@@ -9,4 +9,8 @@
     <color name="primaryButtonDefault">#7AB34E</color>
     <color name="primaryButtonPressed">#558b2f</color>
     <color name="primaryButtonDisabled">#bdbdbd</color>
+
+    <color name="secondaryButtonDefault">#e9ef6c00</color>
+    <color name="secondaryButtonPressed">#ef6c00</color>
+    <color name="secondaryButtonDisabled">#bdbdbd</color>
 </resources>
